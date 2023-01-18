@@ -15,7 +15,7 @@ let amtMn;
 let amtHr;
 
 function setup() {
-  createCanvas(displayWidth, displayHeight);
+  createCanvas(windowWidth, windowHeight);
     // console.log(hour() + ":" + minute()+ ":" + second());
 }
 
