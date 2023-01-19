@@ -79,20 +79,20 @@ function draw() {
     strokeWeight(amtHr);
     stroke(255, 255, 255, alphaStroke);
     fill(0, 0, b, alpha);
-    rect(hoursMove, y, 100, 999,roundEdge);
+    rect(hoursMove, y, 100, height-1,roundEdge);
 
 
     //minutesCounter
     strokeWeight(amtMn);
     stroke(255,255, 255, alphaStroke);
     fill(255, 255, b, alpha);
-    rect(minutesMove, y, 100, 999,roundEdge );
+    rect(minutesMove, y, 100, height-1,roundEdge );
 
     //secondsCounter
     strokeWeight(amtSc);
     stroke(255, 255, 255, alphaStroke);
     fill(255, g, b, alpha);
-    rect(secondsMove, y, 100, 999, roundEdge);
+    rect(secondsMove, y, 100,  height-1, roundEdge);
   
   
 
